@@ -14,6 +14,14 @@ This project implements a Constraint Satisfaction Problem (CSP) solver for tradi
 - Benchmarked on 95 challenging Sudoku puzzles
 - Generates scatter plot performance comparison
 
+## Performance Comparison
+
+The scatter plot below compares MRV and First Available:
+
+![Performance Plot](running_time.png)
+
+Points above the diagonal indicate that First Available took longer than MRV.
+
 ## How to Run
 
 ```bash
